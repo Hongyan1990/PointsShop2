@@ -85,11 +85,11 @@ WSGI_APPLICATION = 'PointsShop2.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'pointsShop',
-        'USER': 'root',
-        'PASSWORD': 'hong180991..',
-        'HOST': '119.23.72.26',
+        'ENGINE': '',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
         'OPTIONS': {'init_command': 'SET storage_engine=INNODB'}
     }
 }
